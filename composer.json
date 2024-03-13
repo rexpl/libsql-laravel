@@ -1,0 +1,22 @@
+{
+    "name": "rexpl/libsql-laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rexpl\\Libsql\\Laravel\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "rexpl/libsql": "^0.1.0",
+        "illuminate/support": "^11.0",
+        "illuminate/database": "^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rexpl\\Libsql\\Laravel\\ServiceProvider"
+            ]
+        }
+    }
+}
