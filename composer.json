@@ -8,9 +8,9 @@
     },
     "require": {
         "php": ">=8.2",
-        "rexpl/libsql": "^0.1.0",
-        "illuminate/support": "^11.0",
-        "illuminate/database": "^11.0"
+        "rexpl/libsql": "^0.3.0",
+        "illuminate/support": "^10.0",
+        "illuminate/database": "^10.0"
     },
     "extra": {
         "laravel": {
